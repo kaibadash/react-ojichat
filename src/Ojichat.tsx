@@ -2,7 +2,7 @@ import React from 'react';
 import './Ojichat.css';
 import * as ojichat from "ojichat.js";
 
-const App: React.FC = () => {
+const Ojichat: React.FC = () => {
   let message = new ojichat.Generator().getMessage();
   return (
     <div className="App">
@@ -11,4 +11,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default Ojichat;
